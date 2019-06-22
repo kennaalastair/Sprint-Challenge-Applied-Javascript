@@ -32,13 +32,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+Document Object Model - The bridge between content and the browser. It's a tree-like structure which represents your content, structure and style.
+
 2. What is an event?
+
+Events are the way users interact with the page. Anytime there is some interaction by mouse, keyboard, eetc., the DOM creates an event object that carries information about that event.
 
 3. What is an event listener?
 
+An event listener is a  function that is called whenever an event of the specific type has happened.
+
 4. Why would we convert a NodeList into an Array?
 
+You can’t use Array.forEach() with the elements you get back when using querySelectorAll(), because it returns a NodeList,not an array.
+
 5. What is a component?
+
+A component is a piece of reusable code.
 
 ### Git Set up
 
